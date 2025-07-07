@@ -47,7 +47,7 @@ def main():
     kwargs = sys.argv
 
     if len(kwargs) < 2:
-        print("USAGE:\npython3 ytplay.py random (opens a random video from list)\npython3 ytplay.py queue (queues all videos in list)")
+        print("USAGE:\npython3 tubeplay.py random (opens a random video from list)\npython3 tubeplay.py queue (queues all videos in list)")
         exit()
     
     if kwargs[1] == "random":

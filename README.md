@@ -4,8 +4,6 @@
 
 No API keys, no setup bullshit, just run and watch.
 
----
-
 ## Features
 
 - Open all YouTube links as a playlist (using YouTube’s temporary playlist feature)
@@ -14,23 +12,15 @@ No API keys, no setup bullshit, just run and watch.
 - No YouTube API required
 - Works cross-platform (Windows, macOS, Linux)
 
----
-
 ## Usage
 
 ### Provide a list of YouTube URLs
 Add a list of youtube URLs to the file `videos.txt`
 
-For example:
-
-https://www.youtube.com/watch?v=abc123
-https://www.youtube.com/watch?v=def456
-https://www.youtube.com/watch?v=ghi789
-
 
 ### Command Line Arguments
 
-```python3 ytplay.py random``` (opens a random video from list)
+```python3 ytplay.py random``` (opens a random video from list)  
 ```python3 ytplay.py queue``` (queues all videos in list)
 
 ## Future Additions
